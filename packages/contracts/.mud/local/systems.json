@@ -1,0 +1,20 @@
+{
+  "systems": [
+    {
+      "namespaceLabel": "test",
+      "label": "TestSystem",
+      "namespace": "test",
+      "name": "TestSystem",
+      "systemId": "0x737974657374000000000000000000005465737453797374656d000000000000",
+      "abi": [
+        "function getCheck() returns (bool)",
+        "function toggleCheck()"
+      ],
+      "worldAbi": [
+        "function test__getCheck() returns (bool)",
+        "function test__toggleCheck()"
+      ]
+    }
+  ],
+  "createdAt": 1729586415434
+}
